@@ -21,7 +21,7 @@ resource "alicloud_nat_gateway" "nat" {
   nat_gateway_name = "${var.vpc_name}-nat-gateway"
   payment_type     = "PayAsYouGo"
   nat_type         = "Enhanced"
-  vswitch_id       = alicloud_vswitch.vswitch.id # <-- FINAL FIX: Yeh line add ki hai
+  vswitch_id       = alicloud_vswitch.vswitch.id 
 }
 
 resource "alicloud_eip_address" "nat_eip" {
