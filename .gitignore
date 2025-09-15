@@ -1,0 +1,23 @@
+# Local .terraform directories
+**/.terraform/*
+
+# Terragrunt cache
+.terragrunt-cache/
+
+# Crash logs
+crash.log
+*.tfstate
+*.tfstate.*
+
+# Terraform plan files
+*.tfplan
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive files
+.terraformrc
+terraform.rc
